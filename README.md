@@ -77,6 +77,8 @@ Think of a factory assembly line. Raw materials (input) enter the line, pass thr
 
 ## Diving Deeper into Neural Networks: The Magic Behind Customer Churn Prediction
 
+![](https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt790f1b7ac4e04301/6543ff50fcf447040a6b8dc7/News_Image_(47).png)
+
 **Understanding the Core Concepts**
 
 A neural network is a computational model inspired by the human brain. It consists of interconnected nodes, or neurons, organized in layers. Each neuron receives inputs, processes them using a weighted sum and activation function, and produces an output.
