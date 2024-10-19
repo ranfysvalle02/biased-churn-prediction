@@ -166,7 +166,7 @@ While feedforward neural networks are a fundamental type, other architectures of
 * **Memory:** They have a built-in memory mechanism that allows them to retain information from previous inputs.
 * **Applications:** Customer churn prediction based on historical interactions, sentiment analysis of customer reviews, and predicting future sales trends.
 
-### Convolutional Neural Networks (CNNs)
+### [Convolutional Neural Networks (CNNs)](https://github.com/ranfysvalle02/shapeclassifer-cnn/)
 * **Grid-like data:** CNNs are well-suited for processing grid-like data, such as images or audio signals.
 * **Feature extraction:** They automatically learn and extract relevant features from the data.
 * **Applications:** Image-based customer segmentation, predicting customer churn based on visual data (e.g., social media images), and analyzing customer behavior patterns from video data.
