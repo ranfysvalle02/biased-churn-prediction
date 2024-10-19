@@ -2,7 +2,7 @@
 
 ## Understanding Bias in Training Data
 
-Bias in machine learning refers to the tendency of a model to consistently learn the wrong thing by not taking into account all the information in the data. If a model is trained on a dataset that is not representative of the overall population, it can lead to biased predictions.
+If a model is trained on a dataset that is not representative of the overall population, it can lead to biased predictions.
 
 For instance, if a customer churn model is trained mostly on data from customers who have churned, it may become biased towards predicting churn, even for customers who are unlikely to churn. This is because the model has not learned adequately from the non-churn cases.
 
