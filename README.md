@@ -1,5 +1,7 @@
 # biased-churn-prediction
 
+![](https://cdn-images-1.medium.com/fit/t/1600/480/0*d58iZ6esNNcfntQ7)
+
 ## Understanding Bias in Training Data
 
 If a model is trained on a dataset that is not representative of the overall population, it can lead to biased predictions.
