@@ -1,5 +1,39 @@
 # biased-churn-prediction
 
+## Understanding Bias in Training Data
+
+Bias in machine learning refers to the tendency of a model to consistently learn the wrong thing by not taking into account all the information in the data. If a model is trained on a dataset that is not representative of the overall population, it can lead to biased predictions.
+
+For instance, if a customer churn model is trained mostly on data from customers who have churned, it may become biased towards predicting churn, even for customers who are unlikely to churn. This is because the model has not learned adequately from the non-churn cases.
+
+**Biased Towards Churn Training Data:**
+
+```
+Predicted probability of churn for example 1: 0.7901
+Predicted probability of churn for example 2: 0.9615
+Predicted probability of churn for example 3: 0.7767
+Predicted probability of churn for example 4: 0.8826
+Predicted probability of churn for example 5: 0.7967
+```
+
+**Biased Towards Retention Training Data:**
+
+```
+Predicted probability of churn for example 1: 0.0242
+Predicted probability of churn for example 2: 0.1502
+Predicted probability of churn for example 3: 0.1188
+Predicted probability of churn for example 4: 0.0319
+Predicted probability of churn for example 5: 0.1013
+```
+
+## The Importance of Unbiased Training Data
+
+This experiment highlights the importance of using unbiased training data when building machine learning models. Bias in training data can lead to over- or under-estimation of the likelihood of certain outcomes, which can have serious implications in real-world applications.
+
+In the context of customer churn prediction, a model that is biased towards predicting churn might lead a business to unnecessarily invest resources in retaining customers who are not at risk of churning. Conversely, a model that is biased against predicting churn might fail to identify customers who are at risk of churning, resulting in lost opportunities to retain them.
+
+Therefore, it's crucial to ensure that your training data is representative of the population you're trying to make predictions for. This involves carefully collecting and preparing your data, and potentially using techniques like resampling or weighting to address any imbalances.
+
 ## Understanding Feedforward Neural Networks: A Simplified Explanation
 
 **Imagine a neural network as a sophisticated information processing machine.** It's like a series of interconnected rooms, each equipped with a unique processing ability. Data enters one room, is processed, and then passed on to the next, until it reaches the final room where a decision or prediction is made.
