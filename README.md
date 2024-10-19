@@ -176,10 +176,6 @@ While feedforward neural networks are a fundamental type, other architectures of
 * **Compression:** They learn to compress and decompress data, capturing the essential features.
 * **Applications:** Anonymizing customer data, detecting anomalies in customer behavior, and generating new customer profiles.
 
-### Generative Adversarial Networks (GANs)
-* **Generating new data:** GANs consist of two competing neural networks: a generator and a discriminator. The generator creates new data, while the discriminator tries to distinguish it from real data.
-* **Applications:** Generating synthetic customer data for privacy protection, creating personalized product recommendations, and designing new product concepts.
-
 ## Bias Mitigation Techniques
 Addressing bias in training data is crucial for ensuring fair and accurate predictions. Here are some effective techniques:
 
