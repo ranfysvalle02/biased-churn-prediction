@@ -1,4 +1,4 @@
-# neural-churn-prediction
+# biased-churn-prediction
 
 ## Understanding Feedforward Neural Networks: A Simplified Explanation
 
