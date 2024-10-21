@@ -171,7 +171,7 @@ While feedforward neural networks are a fundamental type, other architectures of
 * **Feature extraction:** They automatically learn and extract relevant features from the data.
 * **Applications:** Image-based customer segmentation, predicting customer churn based on visual data (e.g., social media images), and analyzing customer behavior patterns from video data.
 
-### Autoencoders
+### [Autoencoders](https://github.com/ranfysvalle02/autoencoder-101/)
 * **Unsupervised learning:** Autoencoders are used for unsupervised learning tasks, such as dimensionality reduction and feature extraction.
 * **Compression:** They learn to compress and decompress data, capturing the essential features.
 * **Applications:** Anonymizing customer data, detecting anomalies in customer behavior, and generating new customer profiles.
